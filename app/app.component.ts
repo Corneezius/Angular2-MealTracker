@@ -7,11 +7,11 @@ import { Meal } from './meal.model';
   <div class="container">
     <h1>Meal Tracker</h1>
     <meal-list
-      [childTaskList]="masterMealList"
+      [childMealList]="masterMealList"
       (clickSender)="showDetails($event)"
      ></meal-list>
     <edit-meal
-      [childSelectedTask]="selectedMeal"
+      [childSelectedMeal]="selectedMeal"
       (doneClickedSender)="finishedEditing()"
     ></edit-meal>
     <new-meal
