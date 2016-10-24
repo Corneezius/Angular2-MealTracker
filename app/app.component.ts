@@ -24,10 +24,10 @@ import { Meal } from './meal.model';
 
 export class AppComponent {
   public masterMealList: Meal[] = [
-      new Meal("Chicken and Rice","Chicken and Rice", 350,  0),
-      new Meal("Chicken and Rice","Chicken and Rice", 350,  0),
-      new Meal("Chicken and Rice","Chicken and Rice", 350,  0),
-      new Meal("Chicken and Rice","Chicken and Rice", 350,  0),
+      new Meal("Chicken and Rice","Just something I made on the go",720,  0),
+      new Meal("burger","yum and fattening", 456,  0),
+      new Meal("PB&J","a snack for epicodus", 350,  0),
+      new Meal("Chicken and Potatoes","Chicken and Rice", 320,  0),
   ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal) {
